@@ -4,6 +4,7 @@ spring.datasource:
   password: sa
 spring.h2.console.enabled: true
 camunda.bpm:
+  default-serialization-format: application/json
   admin-user:
     id: demo
     password: demo
